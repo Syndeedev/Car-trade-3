@@ -1,9 +1,20 @@
 <template>
   <div>
     <NuxtRouteAnnouncer />
-    <!-- <Bar id="my-chart-id" :options="chartOptions" :data="chartData" /> -->
-    <Line :data="chartData" :options="chartOptions" />
-    <h1 class="text-3xl font-bold underline bg-amber-400">Hello world!</h1>
+    <!--NAV BAR-->
+    <header class="sticky top-0 z-50 space-x-1 border-b-0 bg-white shadow-md">
+      <div class="flex justify-between items-center p-4">
+        <a class="text-3xl font-mono" href="">Car trade</a>
+        <button class="text-white bg-blue-500 px-8 py-2 rounded">Login</button>
+      </div>
+      <div class="py-2 px-4 bg-blue-500 flex justify-between items-center">
+        <p class="text-yellow-400">Bua Foods</p>
+        <p class="text-yellow-400">MTN</p>
+        <p class="text-yellow-400">Zenith bank</p>
+      </div>
+    </header>
+
+    <!-- <Line :data="chartData" :options="chartOptions" /> -->
   </div>
 </template>
 <script>
