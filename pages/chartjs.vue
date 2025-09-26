@@ -1,0 +1,3 @@
+<template>
+  <ChartjsExample />
+</template>
