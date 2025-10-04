@@ -2,7 +2,7 @@
   <div
     class="font-serif w-[700px] my-8 text-md rounded bg-white flex items-center justify-between overflow-hidden drop-shadow-sm mx-auto"
   >
-    <SearchIcon class="ml-4" />
+    <CarSearchIcon class="ml-4" />
     <input
       type="text"
       class="px-2 py-3 w-full text-md rounded focus:outline-none"

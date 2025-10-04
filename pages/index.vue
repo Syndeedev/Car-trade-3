@@ -1,7 +1,9 @@
 <template>
   <div>
     <NuxtRouteAnnouncer />
-    <SearchBar />
+    <CarHero />
+    <CarPage />
+    <CarDetailPage />
     <!-- <ChartjsExample /> -->
   </div>
 </template>
